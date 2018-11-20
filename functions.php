@@ -1,10 +1,10 @@
 <?php
-//slider speed control
+//slider speed new control - Wordpress
 function Slider_customize_register( $wp_customize ) {
 	$wp_customize->add_section( 'slider_section' , array(
-		'title'     => __( 'Carousel', 'Divi-child' ),
+		'title'     => __( 'Slider', 'Divi-child' ),
 		'capability' => 'edit_theme_options',
-		'description' => 'Digite ou use as setas para selecionar o tempo de exibição:'
+		'description' => 'Enter the display time:'
 		)
 	);
 	$wp_customize->add_setting(
@@ -21,8 +21,8 @@ function Slider_customize_register( $wp_customize ) {
 		'slider_speed',
 		// Arguments array
 		array(
-			'label' => __( 'Tempo de exibição em segundos.', 'Divi-child' ),
-			'section' => 'slider_section',
+			'label' => __( 'Display time in seconds.', 'Divi-child' ),
+			'section' => 'slider_section',//ID of the new section
 			'type' => 'number',
 			// This last one must match setting ID from above
 			'settings' => 'slider_speed'
@@ -30,7 +30,7 @@ function Slider_customize_register( $wp_customize ) {
 	);
 }
 add_action( 'customize_register', 'Slider_customize_register' );
-// $slider_timing= get_theme_mod('primm_slider_speed');
-// echo("Slider Timing: ".$slider_timing);  // test only
+// $slider_timing= get_theme_mod('primm_slider_speed'); -> this is how you get the value of input using the ID
+// echo("Slider Timing: ".$slider_timing);  // test only if you want print on screen the value 
 // var_dump($slider_timing);
 ?>
