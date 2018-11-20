@@ -3,8 +3,7 @@
 	<div class="slider-wrapper" id="slider">
   		<div class="slider responsive lazy">
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'entry-content' ); ?>
-			<?php comments_template(); ?>
+			<? the_post_thumbnail(); ?>
 			<?php endwhile; endif; ?>
 		</div>
 		<div class="slider-progress">
