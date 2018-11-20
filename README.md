@@ -42,8 +42,7 @@ e como o input está em uma página (personalizar do Wordpress) e a função do 
 "window.parent.document".
 
 3.index.php:
-Nesse documento você encontra o HTML que chamará o conteúdo a ser mostrado pelo slider, nesse caso as imagens destacadas dos posts (thumbnails).
-Mas conteúdo do slider você poderá criar e adiconar como quiser.
+Nesse documento você encontra o HTML que chamará o conteúdo a ser mostrado pelo slider, nesse caso as imagens destacadas dos posts (thumbnails). Mas conteúdo do slider você poderá criar e adiconar como quiser. O estilo utilizado foi adaptado do exemplo encontrado no CodePen (https://codepen.io/flannerydesigns/pen/pbzOgg).
     
 
  
