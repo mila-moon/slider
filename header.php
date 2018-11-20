@@ -16,7 +16,7 @@
     var time = <?= get_theme_mod('slider_speed') ?>;//get the value of input (of the new section) and save on a variable "time"
     $("#_customize-input-slider_speed", window.parent.document).on('change', function(){ 
       time = $(this).val(); 
-    });//get the value of input filed after been changed (by client on panel control Wordpress) and save it on variable "time" again
+    });//get the value of input field after been changed (by client on panel control Wordpress) and save it on variable "time" again
     
     
     //start others variables
