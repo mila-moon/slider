@@ -8,7 +8,9 @@ possível de seus usuários, mas usei este:
 https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js
 
 PS: lempre-se de utilizar também o jQuery!
+  <!--jQuery-->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <!--Slick Slider-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
 
 Demo de como funciona o slick slider no CodePen:
@@ -43,4 +45,5 @@ e como o input está em uma página (personalizar do Wordpress) e a função do 
 Nesse documento você encontra o HTML que chamará o conteúdo a ser mostrado pelo slider, nesse caso as imagens destacadas dos posts (thumbnails).
 Mas conteúdo do slider você poderá criar e adiconar como quiser.
     
+
  
