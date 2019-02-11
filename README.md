@@ -31,14 +31,14 @@ Aqui você possui o cabeçalho do seu header com o CDN e o script da função qu
 Dentro dessa função jQuery, há uma parte muito importante que explico que pegará o valor digitado no input e será carregado para a
 variável que determina o tempo de exibição do slider,conforme explico a seguir:
        
-    var time = <?= get_theme_mod('slider_speed') ?>; ->aqui você pega o valor do ID input e salva na variável cahamda "time"
+    var time = <?= get_theme_mod('slider_speed') ?>; ->aqui você pega o valor do ID input e salva na variável chamada "time"
     $("#_customize-input-slider_speed", window.parent.document).on('change', function(){ ->aqui o jQuery deve pegar os novos valores digitados no input
       time = $(this).val(); -> aqui salva o novo valor na variável "time"
     });
     
 PS: lembre-se que você está utilizando a linguagem php e, por isso necessita pegar o valor do input dessa forma: 
 
-===>(      <?= get_theme_mod('slider_speed') ?>       )<==
+"<?= get_theme_mod('slider_speed') ?>"
 
 e como o input está em uma página (personalizar do Wordpress) e a função do slider em outra página é necessário utilizar
 "window.parent.document".
