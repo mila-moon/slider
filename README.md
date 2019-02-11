@@ -36,7 +36,7 @@ variável que determina o tempo de exibição do slider,conforme explico a segui
       time = $(this).val(); 
     });
 
-https://user-images.githubusercontent.com/45197935/52562039-5ac27e80-2de4-11e9-8a0c-3d7f3be91961.png
+https://user-images.githubusercontent.com/45197935/52563643-31f0b800-2de9-11e9-8e74-7018a0275029.png
 
 
 3.index.php:
