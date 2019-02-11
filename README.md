@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/45197935/52562039-5ac27e80-2de4-11e9-8
     
 PS: lembre-se que você está utilizando a linguagem php e, por isso necessita pegar o valor do input dessa forma: 
 
-"<?= get_theme_mod('slider_speed') ?>"
+https://github.com/mila-moon/slider/issues/2#issue-408757618
 
 e como o input está em uma página (personalizar do Wordpress) e a função do slider em outra página é necessário utilizar
 "window.parent.document".
