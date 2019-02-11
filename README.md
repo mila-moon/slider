@@ -31,7 +31,9 @@ Aqui você possui o cabeçalho do seu header com o CDN e o script da função qu
 Dentro dessa função jQuery, há uma parte muito importante que explico que pegará o valor digitado no input e será carregado para a
 variável que determina o tempo de exibição do slider,conforme explico a seguir:
 
-https://user-images.githubusercontent.com/45197935/52563643-31f0b800-2de9-11e9-8e74-7018a0275029.png
+![git-text-3](https://user-images.githubusercontent.com/45197935/52563869-b2afb400-2de9-11e9-88b6-ff91e04af0e4.png)
+
+
 
 
 3.index.php:
