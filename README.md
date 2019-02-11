@@ -2,7 +2,7 @@
 Como criar um controle no Wordpress de tempo de exibição de um slick slider fullwidth com progress bar para seus posts e
 sem utilizar plugins.
 
-Para começar a trabalhar com o Slick imediatamente, há algumas opções de CDN disponíveis para atender os arquivos o mais próximo 
+##Para começar a trabalhar com o Slick imediatamente, há algumas opções de CDN disponíveis para atender os arquivos o mais próximo 
 possível de seus usuários, mas usei este:
 
 https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js
@@ -17,7 +17,7 @@ Demo de como funciona o slick slider no CodePen:
 https://codepen.io/flannerydesigns/pen/pbzOgg
 
 
-Abra os documentos adicionados neste repositório e adicione ao seu tema Wordpress.
+###Abra os documentos adicionados neste repositório e adicione ao seu tema Wordpress.
 Para entender o que cada documento contém:
 
 1.functions.php:
