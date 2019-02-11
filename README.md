@@ -30,11 +30,9 @@ quanto tempo o slider ficará parado, até ocorrer a transição para a próximo
 Aqui você possui o cabeçalho do seu header com o CDN e o script da função que fará o slick slider funcionar.
 Dentro dessa função jQuery, há uma parte muito importante que explico que pegará o valor digitado no input e será carregado para a
 variável que determina o tempo de exibição do slider,conforme explico a seguir:
-       
-    var time = <?= get_theme_mod('slider_speed') ?>; ->aqui você pega o valor do ID input e salva na variável chamada "time"
-    $("#_customize-input-slider_speed", window.parent.document).on('change', function(){ ->aqui o jQuery deve pegar os novos valores digitados no input
-      time = $(this).val(); -> aqui salva o novo valor na variável "time"
-    });
+
+https://user-images.githubusercontent.com/45197935/52562039-5ac27e80-2de4-11e9-8a0c-3d7f3be91961.png
+
     
 PS: lembre-se que você está utilizando a linguagem php e, por isso necessita pegar o valor do input dessa forma: 
 
