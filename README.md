@@ -37,7 +37,9 @@ variável que determina o tempo de exibição do slider,conforme explico a segui
     });
     
 PS: lembre-se que você está utilizando a linguagem php e, por isso necessita pegar o valor do input dessa forma: 
-<?= get_theme_mod('slider_speed') ?>
+
+===>(      <?= get_theme_mod('slider_speed') ?>       )<==
+
 e como o input está em uma página (personalizar do Wordpress) e a função do slider em outra página é necessário utilizar
 "window.parent.document".
 
