@@ -7,7 +7,7 @@ possível de seus usuários, mas usei este:
 
 https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js
 
-PS: lempre-se de utilizar também o jQuery!
+PS: lembre-se de utilizar também o jQuery!
   <!--jQuery-->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <!--Slick Slider-->
